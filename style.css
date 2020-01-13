@@ -1,0 +1,77 @@
+ body{
+      box-sizing: border-box;
+      margin:0px;
+      padding: 0px;
+      height: 100%;
+    }
+
+    .wrapContainer:hover{
+      background-color: #CCC;
+    }
+    .wrapContainer h4:hover {
+      color:#FFF;
+
+    } 
+    .wrapContainer h4 {
+      cursor: pointer;
+      text-decoration: none;
+      margin-left: 4px;
+      border: 1px solid #E0E0E0;
+      padding: 12px;
+      margin-top: -10px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      color: #337AB7;
+      text-decoration: underline;
+    }
+    .collapseContent {
+      height: 0px;
+      /*overflow:auto;*/
+      overflow:hidden;
+      /*transition: height 0.4s;*/
+    }
+    .collapseContent.activeCollapse{
+      height: auto;
+      /*height: 200px;*/
+      background-color: #FFF;
+    }
+    .container{
+      margin:0 auto;
+      width: 980px;
+      padding: 10px;
+    }
+    .wrapContainer{
+      background-color: #EEE;
+      margin-bottom: 2px;
+      padding-top: 10px;
+    }
+    .customTable{
+      margin-top: 4px;
+    }
+    .inputEditChild{
+      pointer-events: none;
+      border: 0px;
+      color: #888;
+      background-color:transparent;
+    }
+    .actInputChild{
+      pointer-events: auto;
+      display: block;
+      border: 1px solid #999;
+      color: #000;
+      padding: 4px;
+      border-radius: 4px;
+    }
+    .actBtnEdit{
+      color: #337AB7 !important;
+      pointer-events: auto!important;
+    }
+    .btnConfirmUpChild{
+      pointer-events: none;
+      color: #CCC;
+    }
+    .tableCustomChild tbody tr th{
+      background: #F2DEDE;
+      font-weight:normal!important;
+      text-align: center;
+    }
